@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    color: rgb(17, 2, 2);
+  }
+
+  .Map-container {
+    height: 80vh; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Layer-buttons {
+    margin-top: 10px;
+  }
+  
+  .Layer-buttons button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .Layer-buttons button:hover {
+    background-color: #0056b3;
+  }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .Map-container {
+      height: 50vh;
+    }
+  
+    .Layer-buttons {
+      flex-direction: column;
+    }
+  
+    .Layer-buttons button {
+      margin-bottom: 10px;
+    }
+  }
+  
